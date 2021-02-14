@@ -1,0 +1,37 @@
+.parent-wrapper{
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 50px;
+    color:white;
+    margin-top: 10px;
+}
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: honeydew;
+    background:lightblue;
+
+}
+.btn{
+    background: bisque;
+    width: 30%;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+::-webkit-input-placeholder { /* Edge */
+    color:white;
+    font-weight:bold;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+    color:white;
+    font-weight:bold;
+  }
+  
+  ::placeholder {
+   color:white;
+    font-weight:bold;
+  }
